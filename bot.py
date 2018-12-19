@@ -287,6 +287,4 @@ async def ping():
     # await CLIENT.send_file(ctx.message.channel, os.getcwd()+'/images/pong.jpg')
 
 
-if TOKEN:
-    print('--- RUNNING ---')
-    CLIENT.run(TOKEN)
+CLIENT.run(TOKEN)
