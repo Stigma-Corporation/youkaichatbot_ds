@@ -288,4 +288,5 @@ async def ping():
 
 
 if TOKEN:
+    print('--- RUNNING ---')
     CLIENT.run(TOKEN)
